@@ -5,7 +5,7 @@
         
     st.title("AI Career Coach")
     
-    question = st.text_input("Ask your career question")
+    question = st.text_input("Ask your question regarding career options")
 
     if st.button("Submit") and question:
 
